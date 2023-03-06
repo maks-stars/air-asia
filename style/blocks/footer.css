@@ -1,0 +1,39 @@
+.footer {
+  height: 152px;
+  position: relative;
+}
+
+.contacts__call {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.socials {
+
+  top: 55px;
+  right: 300px;
+  position: absolute;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.footer__container {
+  border-top: 1px solid  #012330;
+}

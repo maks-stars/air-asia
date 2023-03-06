@@ -1,0 +1,48 @@
+.header {
+  height: 77px;
+}
+
+.logo, .menu, .menu__item, .contacts {
+  display: inline-block;
+  }
+  
+  .logo, .contacts {
+    margin-top: 29px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .contacts {
+    float: right;
+  }
+  
+  .contacts__phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  }
+  
+  .contacts__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-align: end;
+  }
+  
+  .menu {
+    margin-left: 79px;
+    margin-top: 43px;
+  }
+  
+  .menu__item {
+    margin-right: 54px;
+  }
+  
+  .menu__item:last-child {
+    margin-right: 0px;
+  }
