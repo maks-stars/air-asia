@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/air-asia/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
     <title>Air Asia</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="wrapper__content">
+        <div class="wrapper__content wrapper__content--main">
             <header class="header">
                 <div class="container header__container">
                     <a href="#" class="logo">
-                        <img src="" alt="" class="logo__img">
+                        <img src="./img/logo.png" alt="" class="logo__img">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
@@ -44,16 +48,16 @@
                         <h2 class="title title--fire">Горящие туры</h2>
                         <ul class="offers__list">
                             <li class="offers__item">
-                                <img src="" alt="" class="offers__img">
+                                <img src="./img/offers/river.png" alt="" class="offers__img">
                                 <div class="offers__content">
                                     <h3 class="offers__title">Тайланд</h3>
                                     <ul class="offers__features">
                                         <li class="offers__feature">
-                                            <img src="" alt="" class="offers-feature-icon">
+                                            <img src="./img/icons/calendar.png" alt="" class="offers-feature-icon">
                                             <div class="offers__offers-feature-text">7-12 ночей</div>
                                         </li>
                                         <li class="offers__feature">
-                                            <img src="" alt="" class="offers__feature-icon">
+                                            <img src="./img/icons/meal.png" alt="" class="offers__feature-icon">
                                             <div class="offers__feature-text">Завтраки</div>
                                         </li>
                                     </ul>
@@ -63,16 +67,16 @@
                                 </div>
                             </li>
                             <li class="offers__item">
-                                <img src="" alt="" class="offers__img">
+                                <img src="./img/offers/pool.png" alt="" class="offers__img">
                                 <div class="offers__content">
                                     <h3 class="offers__title">Бали</h3>
                                     <ul class="offers__features">
                                         <li class="offers__feature">
-                                            <img src="" alt="" class="offers__feature-icon">
+                                            <img src="./img/icons/calendar.png" alt="" class="offers__feature-icon">
                                             <div class="offers__feature-text">7-12 ночей</div>
                                         </li>
                                         <li class="offers__feature">
-                                            <img src="" alt="" class="offers-feature-icon">
+                                            <img src="./img/icons/meal.png" alt="" class="offers-feature-icon">
                                             <div class="offers__offers-feature-text">Завтраки</div>
                                         </li>
                                     </ul>
@@ -82,16 +86,16 @@
                                 </div>
                             </li>
                             <li class="offers__item">
-                                <img src="" alt="" class="offers__img">
+                                <img src="./img/offers/ocean.png" alt="" class="offers__img">
                                 <div class="offers__content">
                                     <h3 class="offers__title">Индонезия</h3>
                                     <ul class="offers__features">
                                         <li class="offers__feature">
-                                            <img src="" alt="" class="offers-feature-icon">
+                                            <img src="./img/icons/calendar.png" alt="" class="offers-feature-icon">
                                             <div class="offers__offers-feature-text">7-12 ночей</div>
                                         </li>
                                         <li class="offers__feature">
-                                            <img src="" alt="" class="offers__feature-icon">
+                                            <img src="./img/icons/meal.png" alt="" class="offers__feature-icon">
                                             <div class="offers__feature-text">Завтраки</div>
                                         </li>
                                     </ul>
@@ -108,15 +112,15 @@
                         <h2 class="title">Новости и акции</h2>
                         <ul class="news__list">
                             <li class="news__item">
-                                    <img src="#" alt="" class="news__img">
+                                    <img src="./img/news/plain.png" alt="" class="news__img">
                                 <div class="news__item-content">
-                                    <div class="news__item-date">декабрь 2023</div>
+                                    <div class="news__item-content">декабрь 2023</div>
                                     <div class="news__item-title">Дешёвые путёвкие на Новый год!</div>
                                     <div class="news__item-text">Проведи Новый год в Тайланде.</div>
                                 </div>
                             </li>
                             <li class="news__item">
-                                    <img src="#" alt="" class="news__img">
+                                    <img src="./img/news/surfer.png" alt="" class="news__img">
                                 <div class="news__item-content">
                                     <div class="news__item-date">декабрь 2023</div>
                                     <div class="news__item-title">Акция для серфенгистов!</div>
@@ -127,7 +131,7 @@
                         <div class="paginator">
                             <div class="paginator__display">Страница 1 из 7</div>
                                 <ul class="paginator__list">
-                                    <li class="paginator__item">
+                                    <li class="paginator__item paginator__item--active">
                                         <a class="paginator__link" href="">1</a>
                                     </li>
                                     <li class="paginator__item">
@@ -154,10 +158,10 @@
                 </section>
                 <section class="about">
                     <div class="container about__container">
-                        <img src="#" alt="" class="about__img">
-                            <div class="about__info">
+                        <img src="./img/decor/gates.png" alt="" class="about__img">
+                            <div class="about__contant">
                                 <h2 class="title title--dark">О нас</h2>
-                                <div class="about__info-text about__info-text">
+                                <div class="about__text about__text--dark">
                                     <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
                                     </p>
                                 </div>
@@ -170,7 +174,7 @@
         <footer class="footer">
             <div class="container footer__container">
                 <a href="#" class="logo">
-                    <img src="" alt="" class="logo__img">
+                    <img src="./img/logo.png" alt="" class="logo__img">
                 </a>
                 <nav class="menu">
                     <ul class="menu__list">
@@ -183,24 +187,24 @@
                     </ul>
                 </nav>
                     <ul class="socials">
-                        <li class="social__item">
+                        <li class="social__item social__item--icon--telegram">
                             <a href="" class="socials__link">
-                                <img src="" alt="" class="socials__img">
+                                <img src="./img/icons/telegram.png" alt="" class="socials__img">
                             </a>
                         </li>
-                        <li class="social__item">
+                        <li class="social__item social__item--icon--vk">
                             <a href="" class="socials__link">
-                                <img src="" alt="" class="socials__img">
+                                <img src="./img/icons/vk.png" alt="" class="socials__img">
                             </a>
                         </li>
-                        <li class="social__item">
+                        <li class="social__item social__item--icon--fb">
                             <a href="" class="socials__link">
-                                <img src="" alt="" class="socials__img">
+                                <img src="./img/icons/f.png" alt="" class="socials__img">
                             </a>
                         </li>
-                        <li class="social__item">
+                        <li class="social__item social__item--icon--in">
                             <a href="" class="socials__link">
-                                <img src="" alt="" class="socials__img">
+                                <img src="./img/icons/in.png" alt="" class="socials__img">
                             </a>
                         </li>
                     </ul>
