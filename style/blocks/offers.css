@@ -69,13 +69,23 @@ margin-bottom: 127px;
 }
 
 .offers__feature {
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   height: 26px;
   margin-right: 62x;
-  margin-left: 28px;
+  margin-left: 1px;
   margin-bottom: 23.5px;
   align-items: center;
+}
+
+.offers__feature-text {
+  margin-left: 10px;
+  margin-right: 28px;
+}
+
+.offers__offers-feature-text {
+  margin-left: 10px;
+  margin-right: 28px;
 }
 
 .offers__text {

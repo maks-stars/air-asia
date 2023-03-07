@@ -1,8 +1,8 @@
 .about {
   margin-top: 152px;
   height: 552px;
-left: 0px;
-top: 1872px;
+  left: 0px;
+  top: 1872px;
 }
 
 .about__container {
@@ -32,9 +32,9 @@ top: 1872px;
 }
 
 .about__text {
-  margin-top: 37px;
+
   margin-bottom: 43px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 27px;
   color: #060606;

@@ -15,10 +15,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #fff;
-	margin: 0;
-
-
-background: #001821;
+	margin: 0; 
+	background: #001821;
 }
 
 button { 
@@ -88,8 +86,9 @@ background: #001821;
 }
 
 .wrapper__content--main {
-	background: url(../../img/decor/1.png);
-	background-repeat: no-repeat;
+	background: url(../../img/decor/background.png);
+	background-repeat: center center no-repeat;
+	background-size: cover;
 
 }
 
@@ -131,12 +130,3 @@ background: #001821;
 * {
 box-sizing: border-box;	
 }
-
-/*
-.about {
-	background: url(../../img/decor/2.png) center center no-repeat;
-	position: relative;
-	height: 100%;
-	float: center;
-}
-*/
