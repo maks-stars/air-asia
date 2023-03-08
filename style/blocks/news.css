@@ -24,7 +24,7 @@
 }
 
 .news__item:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 
 }
 
@@ -41,7 +41,7 @@
   right: 0;
   bottom: 0;
   padding: 25px 30px;
-  min-height: 140px;
+  min-height: 120px;
 }
 
 .news__item-date {
@@ -56,6 +56,10 @@
 }
 
 .news__item-text {
-  height: 50px;
-  weight: 483px;
+  height: 49px;
+}
+
+.news__list{
+  display: flex;
+  margin-bottom: 57px;
 }
