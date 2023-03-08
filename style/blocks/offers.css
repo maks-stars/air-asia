@@ -95,9 +95,23 @@ margin-bottom: 127px;
   margin-bottom: 20px;
 }
 
-.button--light {
+.button--small {	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 19px;
+	background: #f5170e;
+	border-radius: 35px;
+	padding: 18px 0;
+	width: 135px;
+	color: #fff;
+	text-align: center;}
+
+.button--small--light {
   color: red;
-background-color: white;
+  background-color: white;
   border: solid 1px red;
+  width: 135px;
 
 }
