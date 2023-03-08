@@ -1,5 +1,5 @@
 .footer {
-  height: 152px;
+  height: 140px;
   position: relative;
 }
 
@@ -9,19 +9,19 @@
   line-height: 20px;
 }
 
-
 .socials {
 display: inline-flex;
 position: relative;
-  margin-right: 274px;
-  margin-top: 49px;
+  margin-left: 174px;
   margin-bottom: 61px;
+
 }
 .socials__link{
 
   vertical-align: middle;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 8px;
+  margin-bottom: -10px;
+
 }
 
 .socials__item{

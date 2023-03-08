@@ -88,7 +88,7 @@ background: #001821;
 .wrapper__content--main {
 	background: url(../../img/decor/background.png);
 	background-repeat: center center no-repeat;
-	background-size: cover;
+	background-size: auto;
 
 }
 

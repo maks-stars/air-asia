@@ -5,7 +5,7 @@ margin-bottom: 127px;
 .offers__container {
   position: absolute;
   width: 1140px;
-  height: 549px;
+  height: auto;
   left: 389px;
   top: 775px;
   margin-bottom: 127px;
@@ -34,7 +34,6 @@ margin-bottom: 127px;
 .offers__item {
   display: inline-block;
   width: 362px;
-  height: 449px;
   top: 1019px;
   background: #fff;
   border-radius: 5px;
@@ -58,6 +57,7 @@ margin-bottom: 127px;
 
 .offers__content {
   color: #303030;
+  height: 300px;
   padding: 19px 21px 33px;
 }
 
@@ -74,7 +74,7 @@ margin-bottom: 127px;
   height: 26px;
   margin-right: 62x;
   margin-left: 1px;
-  margin-bottom: 23.5px;
+  margin-bottom: 23px;
   align-items: center;
 }
 
