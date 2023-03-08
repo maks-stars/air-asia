@@ -34,6 +34,7 @@ margin-bottom: 127px;
 .offers__item {
   display: inline-block;
   width: 362px;
+  height: 449px;
   top: 1019px;
   background: #fff;
   border-radius: 5px;
@@ -57,7 +58,7 @@ margin-bottom: 127px;
 
 .offers__content {
   color: #303030;
-  height: 300px;
+  height: 305px;
   padding: 19px 21px 33px;
 }
 
