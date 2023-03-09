@@ -12,7 +12,8 @@
   font-weight: 700;
   line-height: 98px;
   margin-bottom: 27.5px;
-
+  display: flex;
+align-items: flex-end;
 }
 
 .hello__text {
