@@ -1,0 +1,17 @@
+.socials {
+  display: inline-flex;
+  position: relative;
+
+  
+  }
+  .socials__link{
+  
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: -10px;
+  
+  }
+  
+  .socials__item{
+    margin-right: 0;
+  }
