@@ -23,14 +23,14 @@
 	text-align: center;}
 
 .button--color--red {
-  background-color: #da0100;
+  background-color: #F5170E;
   color: #ffffff;
 }
 
 .button--color--white {
   background: #ffffff;
-  color: #d21d16;
-  border: 1px solid #eda5a2;
+  color: #F5170E;
+  border: 1px solid #F5170E;
 }
 
 .button--color--grey {
