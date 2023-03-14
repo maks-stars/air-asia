@@ -12,6 +12,11 @@ padding-bottom: 65px;
 .review__post {
 column-count: 2;
 column-gap: 30px;
+display: flex;
+}
+
+.column {
+flex: 50%;
 }
 
 .posts__list {
@@ -30,3 +35,4 @@ column-gap: 30px;
 .feedback__container {
 
 }
+

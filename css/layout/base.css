@@ -64,7 +64,7 @@ button {
 }
 
 .main-page-wrapper {
-  background:url("../../img/bg/hero.jpg") center top no-repeat, url("../../img/bg/bottom-pic.jpg") right 60px bottom 200px no-repeat;
+  background:url("../../img/bg/hero.jpg") center top no-repeat, url("../../img/bg/bottom-pic.jpg") right 60px bottom 150px no-repeat;
 }
 
 .container {
@@ -73,5 +73,13 @@ button {
   width: 95%;
 }
 
+.logo {
+  display: block;
+  margin-right: 66px;
+} 
 
+.logo__pic{
+  width: 98px;
+  height: 42px;
+}
 

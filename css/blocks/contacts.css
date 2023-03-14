@@ -15,11 +15,6 @@
   position: relative;
 }
 
-.contacts__dropdown:hover .contacts__dropdown-menu {
-  display: block;
-  right:0;
-  opacity: 1;
-}
 
 .contacts__dropdown-workhours{
   font-size: 13px;
