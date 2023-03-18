@@ -42,7 +42,8 @@
 .service__content {
   flex: 1;
   padding-left: 56px;
-  padding-right: 56px;
+  margin-top: 25px;
+
 }
 
 .service__content-service{
@@ -59,7 +60,7 @@
   color: #000000;
 }
 
-.service__text,.service__text-monkey{
+.service__text {
   list-style: 27px;
   margin-top: 28px;
   color: #303030;
