@@ -1,0 +1,18 @@
+.reviews {
+  background-color: #fff;
+}
+
+.reviews__container {
+min-height: 1390px;
+
+padding-top: 98px;
+padding-bottom: 65px;
+}
+
+.review__post {
+column-count: 2;
+column-gap: 30px;
+display: flex;
+}
+
+

@@ -1,0 +1,32 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    padding-top: 29px;
+}
+.contacts{
+    margin-left: auto;
+}
+
+.menu__item{
+    margin-left: 54px;
+}
+.menu__item:first-child{
+    margin-left: 0;
+
+}
+.header{
+    margin-bottom: 131px;
+}
+.button{
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.menu__list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

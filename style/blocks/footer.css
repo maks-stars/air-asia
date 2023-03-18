@@ -1,0 +1,67 @@
+.footer__container-content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid  #012330;
+}
+
+.socials{
+    margin-left: auto;
+}
+
+.footer__contacts{
+    margin-left: 74px;
+
+}
+
+.contacts__phone{
+    color: white;
+}
+
+.contacts__call{
+    text-align: right;
+}
+
+.contacts__call{
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.socials__item{
+   vertical-align: middle;
+   margin-right: 10px;
+}
+
+.socials__item:last-child{
+    margin-right: 0;
+}
+.socials__list{
+    top: 49px;
+    right: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.socials__img--icon--telegram .socials__link:hover{
+    background-image: url("/../../img/icons/telegram.png")
+}
+.socials__img--icon--f.socials__link:hover{
+    background-image: url("./../../img/icons/f.png")
+}
+.socials__img--icon--vk.socials__link:hover{
+    background-image: url("./../../img/icons/vk.png")
+}
+.socials__img--icon--in.socials__link:hover{
+    background-image: url("./../../img/icons/in.png")
+}
+
+.footer__service{
+    Height: 132px;
+    background-color: #001821;
+}
