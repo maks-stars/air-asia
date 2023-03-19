@@ -1,6 +1,7 @@
 .title{
   margin-bottom: 37px;
 }
+
 .news__item{
   width: 557px;
   display: inline-block;
@@ -8,14 +9,15 @@
   position: relative;
   border-radius: 5px;
   overflow: hidden;
-  
 }
+
 .news__img{
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .news__content{
   position: absolute;
   left: 0;
@@ -24,26 +26,31 @@
   padding: 25px 30px;
   min-height: 120px;
 }
+
 .news__date{
   margin-bottom: 18px;
   font-size: 14px;
 }
+
 .news__comercial{
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 .news__list{
   display: flex;
   margin-bottom: 57px;
 }
+
 .news__item:first-child{
   margin-right: 25px;
-
 }
+
 .news{
   margin-bottom: 152px;
 }
+
 .news__tagline{
   height: 50px;
 }

@@ -1,43 +1,22 @@
 .hello{
-    margin-bottom: 246px;
+  margin-bottom: 246px;
 }
 
 .hello__title{
-    width: 511px;
-    margin-bottom: 27px;
+  width: 511px;
+  margin-bottom: 27px;
 }
 
 .hello__text{
-    margin-bottom: 34px;
-}
-
-.button--small--light{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700px;
-    line-height: 19px;
-    text-transform: uppercase;
-    height: 55px;
-    width: 135px;
-
+  margin-bottom: 34px;
 }
 
 .news__content-content{
-    position: absolute;
-    font-weight:700px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 25px 30px;
-    min-width: 140px;
+  position: absolute;
+  font-weight:700px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-width: 140px;
 }
-
-.button--small--light {
-    color: red;
-    background-color: white;
-    border: solid 1px red;
-    text-transform: uppercase;
-  }
-

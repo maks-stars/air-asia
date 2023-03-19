@@ -1,53 +1,54 @@
 .footer__container-content{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer__container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 1px solid  #012330;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid  #012330;
 }
 
 .socials{
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .footer__contacts{
-    margin-left: 74px;
-
+  margin-left: 74px;
 }
 
 .contacts__phone{
-    color: white;
+  color: white;
 }
 
 .contacts__call{
-    text-align: right;
+  text-align: right;
 }
 
 .contacts__call{
-    color: #9A9A9A;
-    font-size: 11px;
+  color: #9A9A9A;
+  font-size: 11px;
 }
 
 .socials__item{
-   vertical-align: middle;
-   margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .socials__item:last-child{
-    margin-right: 0;
+  margin-right: 0;
 }
+
 .socials__list{
-    top: 49px;
-    right: 300px;
-    display: flex;
-    justify-content: space-between;
+  top: 49px;
+  right: 300px;
+  display: flex;
+  justify-content: space-between;
 }
+
 .socials__img--icon--telegram .socials__link:hover{
     background-image: url("/../../img/icons/telegram.png")
 }
@@ -62,6 +63,6 @@
 }
 
 .footer__service{
-    Height: 132px;
-    background-color: #001821;
+  Height: 132px;
+  background-color: #001821;
 }

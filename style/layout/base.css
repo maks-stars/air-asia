@@ -49,6 +49,7 @@ p {
 button {
 	cursor: pointer;
 }
+
 a {
 	color: inherit;
 	cursor: pointer;
@@ -61,6 +62,7 @@ img {
 	max-width: 100%;
 	
 }
+
 .wrapper_pictures{
     background: url("../../img/decor/background.png");
     background-size: cover;
@@ -70,7 +72,7 @@ img {
 
 .wrapper__content {
 	position: relative;
-    height: 100%;
+  height: 100%;
 }
 
 .wrapper__content--main {
@@ -78,23 +80,23 @@ img {
     background-size: cover;
 }
 
-.container{
+.container {
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
 	max-width: 1141px;
 }
 
-.logo,.socials,.socials__link,.menu, .menu__item,.contacts{
-    display: flex;
-    flex-direction: column;
+.logo,.socials,.socials__link,.menu, .menu__item,.contacts {
+  display: flex;
+  flex-direction: column;
 }
 
-.logo.logo__img{
+.logo.logo__img {
     float: left;
 }
 
-.contacts{
+.contacts {
     float: right;
 }
 
@@ -102,44 +104,44 @@ img {
     margin-right: 25px;
 }
 
-.pagination{
+.pagination {
     justify-content:center;
     display: flex;
 }
 
-.pagination__info{
+.pagination__info {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.menu{
+
+.menu {
     margin-left: 79px;
     display: flex;
     justify-content:flex-start;
     align-items:center;
-
 }
 
-.pagination__item{
+.pagination__item {
     margin-right: 24px
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
     margin-right: 0px;
 }
 
-.pagination__item:last-child{
+.pagination__item:last-child {
     margin-right: 0px;
 }
 
-.contacts__phone{
+.contacts__phone {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 35px;
-    
 }
-.contacts__info{
+
+.contacts__info {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -147,11 +149,89 @@ img {
     text-decoration-line: underline;
     text-align: end;
 }
-.button{
+
+.title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    position: relative;
+}
+
+.title--black {
+    color: #000;
+}
+.hello__title {
+    font: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+}
+.offers__title {
+	margin-bottom: 50px;
+}
+
+.footer {
+    height: 146px;
+    position: relative;
+    color: black;
+}
+.menu__link {
+    color: white;
+
+}
+.menu__contacts {
+    color: #000;
+}
+
+/* BUTTONS */
+
+.button {
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 0px  ;
+    height: 55px;
+    width: 168px;
+    color: #fff;
+}
+
+.button--red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 0;
+    width: 135px;
+    color: #fff;
+    text-align: center;
+    height: 55px;
+    font-weight: 700;
+    font-size: 14px;
+} 
+
+.button--red {
+  text-transform: uppercase;
+}
+
+.button--black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2B2B2B;
     border-radius: 35px;
     padding: 18px 0px  ;
     height: 55px;
@@ -173,40 +253,21 @@ img {
     border-radius: 35px;
 }
 
-
-.title{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 49px;
-    position: relative;
+.button--small--light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 19px;
+    text-transform: uppercase;
+    height: 55px;
+    width: 135px;
 }
 
-.title--black{
-    color: #000;
-}
-.hello__title{
-    font: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 98px;
-}
-.offers__title{
-	margin-bottom: 50px;
-}
-.footer{
-    height: 146px;
-    position: relative;
-    color: black;
-}
-.menu__link{
-    color: white;
-
-}
-.menu__contacts{
-    color: #000;
-}
-
-
+.button--small--light {
+    color: red;
+    background-color: white;
+    border: solid 1px red;
+    text-transform: uppercase;
+  }

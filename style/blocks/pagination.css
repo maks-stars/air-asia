@@ -4,6 +4,7 @@
     background: white;
     border-radius: 50%;
 }
+
 .pagination__item--active-one {
     Width: 32px;
     Height:32px;
@@ -13,6 +14,7 @@
     margin-right: 13px;
         
     }
+    
 .agination__item--active--color{
     Width: 32px;
     Height:32px;
@@ -21,14 +23,17 @@
     color: white;
     margin-right: 13px;
 }
+
 .pagination__item{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .pagination__item--active  .agination__item--active--color{
     color: #F5170E;
 }
+
 .pagination__list{
     display: flex;
     font-family: Open Sans;
@@ -38,6 +43,7 @@
     letter-spacing: 0px;
     text-align: left;
     }
+
 .pagination__number{
 display: flex;
 font-family: Open Sans;
@@ -47,6 +53,7 @@ line-height: 21px;
 letter-spacing: 0px;
 text-align: left;
 }
+
 .pagination__info-contacts{
     display: flex;
     justify-content: flex-start;
