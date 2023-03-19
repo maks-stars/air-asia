@@ -63,7 +63,7 @@ img {
 	
 }
 
-.wrapper__pictures{
+.wrapper--hello {
     background: url("../../img/decor/background.png");
     background-size: cover;
 	min-height: 100%;
