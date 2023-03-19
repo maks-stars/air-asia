@@ -63,7 +63,7 @@ img {
 	
 }
 
-.wrapper_pictures{
+.wrapper__pictures{
     background: url("../../img/decor/background.png");
     background-size: cover;
 	min-height: 100%;
@@ -227,7 +227,7 @@ img {
   text-transform: uppercase;
 }
 
-.button--black {
+.button--dark {
     display: flex;
     align-items: center;
     justify-content: center;
