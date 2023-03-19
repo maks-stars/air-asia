@@ -1,5 +1,7 @@
-.wrapper {
+.wrapper--welcome {
+
   background: #001821;
+
   width: 100%;
   height: 100%;
 }
