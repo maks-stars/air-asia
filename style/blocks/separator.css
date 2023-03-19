@@ -1,5 +1,5 @@
  .separator {
-  background:  url("/img/reviews/couple.png") right 25% bottom / auto no-repeat, url("/img/reviews/rectangle.png") center center / cover no-repeat;
+  background:  url("../../img/reviews/couple.png") right 25% bottom / auto no-repeat, url("../../img/reviews/rectangle.png") center center / cover no-repeat;
   min-height: 363px;
   display: flex;
   justify-content: center;
