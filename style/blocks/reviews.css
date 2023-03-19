@@ -1,6 +1,7 @@
 .reviews {
   column-count: 2;
   column-gap: 27px;
+  margin-bottom: 70px;
 }
 
 .reviews__item {
@@ -79,5 +80,8 @@ align-items: flex-start;
 
 .review__content-text {
   color: #818181;
-  font-size: 16px
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
 }
