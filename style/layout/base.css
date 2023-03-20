@@ -180,8 +180,13 @@ img {
 }
 .menu__link {
     color: white;
-
 }
+
+.menu__link:hover {
+color: #F5170E;
+transition: .4s;
+}
+
 .menu__contacts {
     color: #000;
 }
@@ -208,6 +213,11 @@ img {
     color: #fff;
 }
 
+.button:hover {
+    background: #DA0100;
+    transition: .3s;
+}
+
 .button--red {
     display: flex;
     align-items: center;
@@ -221,7 +231,13 @@ img {
     height: 55px;
     font-weight: 700;
     font-size: 14px;
-} 
+}
+
+.button--red:hover {
+    background: #DA0100;
+    transition: .3s;
+}
+
 
 .button--red {
   text-transform: uppercase;
@@ -239,6 +255,12 @@ img {
     color: #fff;
 }
 
+.button--dark:hover {
+    background: #8E8E8E;
+    color: #fff;
+    transition: .3s;
+}
+
 .button--light {
     display: inline-flex;
     font-size: 14px;
@@ -251,6 +273,12 @@ img {
     color: #F5170E;
     border: 1px solid #F5170E;
     border-radius: 35px;
+}
+
+.button--light:hover {
+    background: #F5170E;
+    transition: .3s;
+    color: #fff;
 }
 
 .button--small--light{
@@ -271,3 +299,9 @@ img {
     border: solid 1px red;
     text-transform: uppercase;
   }
+
+  .button--small--light:hover {
+    background: #F5170E;
+    transition: .3s;
+    color: #fff;
+}
