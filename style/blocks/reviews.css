@@ -26,6 +26,7 @@ margin-bottom: 27px;
 .review__user::after {
 content: url("../../img/icons/vk-blue.png");
 height: 32px;
+margin-left: 6px;
 }
 
 .review__tags {
