@@ -100,38 +100,12 @@ img {
     float: right;
 }
 
-.pagination__info{
-    margin-right: 25px;
-}
-
-.pagination {
-    justify-content:center;
-    display: flex;
-}
-
-.pagination__info {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
 .menu {
     margin-left: 79px;
     display: flex;
     justify-content:flex-start;
     align-items:center;
-}
-
-.pagination__item {
-    margin-right: 24px
-}
-
-.menu__item:last-child {
-    margin-right: 0px;
-}
-
-.pagination__item:last-child {
-    margin-right: 0px;
 }
 
 .contacts__phone {
