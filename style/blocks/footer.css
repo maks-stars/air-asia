@@ -49,19 +49,6 @@
   justify-content: space-between;
 }
 
-.socials__img--icon--telegram .socials__link:hover{
-    background-image: url("/../../img/icons/telegram.png")
-}
-.socials__img--icon--f.socials__link:hover{
-    background-image: url("./../../img/icons/f.png")
-}
-.socials__img--icon--vk.socials__link:hover{
-    background-image: url("./../../img/icons/vk.png")
-}
-.socials__img--icon--in.socials__link:hover{
-    background-image: url("./../../img/icons/in.png")
-}
-
 .footer__service{
   Height: 132px;
   background-color: #001821;
