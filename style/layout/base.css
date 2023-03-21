@@ -337,7 +337,6 @@ transition: .4s;
 	width: 160px;
 	opacity: 0;
 	transition: opacity .5s;
-	right: -300px;
 	margin-top: 9px;
     text-align: left;
     font-weight: 500;
